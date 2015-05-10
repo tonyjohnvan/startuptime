@@ -162,7 +162,7 @@ p {
 	color:rgba(0,0,0,0.5)
 }
 .large-text{
-	font-size: 4.5rem
+	font-size: 2.5rem
 }
 .medium-text{
 	font-size:3rem
@@ -289,7 +289,7 @@ p {
 }
 /* MAP BACKGROUND */
 .background.map{
-	background:url(http://placehold.it/1366x768);
+	background:url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -307,7 +307,7 @@ p {
 }
 /* MAGNET BACKGROUND */
 .background.magnet{
-	background:url(http://placehold.it/1366x768);
+	background:url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -315,7 +315,7 @@ p {
 }
 /* BUBBLE BACKGROUND */
 .background.bubble{
-	background:url(http://placehold.it/1366x768)!important;
+	background:url(../img/bg.jpg)!important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -334,7 +334,7 @@ bubble {
 }
 /* IMAGE BACKGROUND */
 .background.image{
-	background:url(http://placehold.it/1366x768);
+	background:url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -358,7 +358,7 @@ bubble {
 /* SNOW BACKGROUND */
 .background.snow{
 	z-index:-1;
-	background:url(http://placehold.it/1366x768);
+	background:url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -366,7 +366,7 @@ bubble {
 }
 /* STAR BACKGROUND */
 .background.star{
-	background:url(http://placehold.it/1366x768);
+	background:url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -458,7 +458,7 @@ bubble {
 	background:none;
 }
 #youtube{
-	background:url(http://placehold.it/1366x768);
+	background:url(../img/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
