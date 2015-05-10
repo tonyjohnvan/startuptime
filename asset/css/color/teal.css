@@ -1,0 +1,28 @@
+/*######################################*/
+/*Colors for the template */
+/*######################################*/
+
+.marker,
+.color,
+#newsletter .btn:hover i ,
+.feature i,
+input:focus ~ .title,
+input:valid ~ .title,
+textarea:focus ~ .title,
+textarea:valid ~ .title,
+#counter .soon-label,
+#counter .soon-ring-progress,
+.no-touch .nav-menu a:before{
+	color:#f69638;
+}
+.bar:before,
+.bar:after,
+.service:hover .service-icon,
+.background.solid,
+.no-touch .nav-menu li a:hover,
+.nav-menu li.select a{
+	background:#f69638;
+}
+.service:hover .circle-border{
+	border-color:#f69638;
+}
