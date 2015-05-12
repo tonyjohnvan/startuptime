@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: LiPro;
+    src: url(../../fonts/LiPro.ttf);
+}
 /*======================== Basic ========================*/
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -31,10 +35,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	height:100%
+	height:100%;
+    font-family: LiPro
 }
 html{
-	height:100%
+	height:100%;
+    font-family: LiPro
 }
 ol, ul {
 	list-style: none;
