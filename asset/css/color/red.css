@@ -11,16 +11,13 @@ input:valid ~ .title,
 textarea:focus ~ .title,
 textarea:valid ~ .title,
 #counter .soon-label,
-#counter .soon-ring-progress,
-.no-touch .nav-menu a:before{
+#counter .soon-ring-progress{
 	color:#F90706;
 }
 .bar:before,
 .bar:after,
 .service:hover .service-icon,
-.background.solid,
-.no-touch .nav-menu li a:hover,
-.nav-menu li.select a{
+.background.solid{
 	background:#F90706;
 }
 .service:hover .circle-border{

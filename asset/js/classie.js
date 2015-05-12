@@ -1,10 +1,4 @@
-/*!
-Theme Name: TheONE
-Theme URI: http://themeforest.net/user/Pooyaa/portfolio
-Author: Pooyaa
-Author URI: http://themeforest.net/user/Pooyaa
-Description: TheONE coming soon page
-*/
+
 (function(window){'use strict';function classReg(className){return new RegExp("(^|\\s+)"+className+"(\\s+|$)");}
 var hasClass,addClass,removeClass;if('classList'in document.documentElement){hasClass=function(elem,c){return elem.classList.contains(c);};addClass=function(elem,c){elem.classList.add(c);};removeClass=function(elem,c){elem.classList.remove(c);};}
 else{hasClass=function(elem,c){return classReg(c).test(elem.className);};addClass=function(elem,c){if(!hasClass(elem,c)){elem.className=elem.className+' '+c;}};removeClass=function(elem,c){elem.className=elem.className.replace(classReg(c),' ');};}

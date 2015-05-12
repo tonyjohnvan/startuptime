@@ -1,10 +1,4 @@
-/*!
-Theme Name: TheONE
-Theme URI: http://themeforest.net/user/Pooyaa/portfolio
-Author: Pooyaa
-Author URI: http://themeforest.net/user/Pooyaa
-Description: TheONE coming soon page
-*/
+
 function RainyDay(canvasid,sourceid,width,height,opacity,blur){this.canvasid=canvasid;this.canvas=document.getElementById(canvasid);this.sourceid=sourceid;this.img=document.getElementById(sourceid);this.opacity=opacity?opacity:1;this.blurRadius=blur?blur:20;this.prepareBackground(width,height);this.w=this.canvas.width;this.h=this.canvas.height;this.prepareGlass();this.drops=[];this.animateDrops();this.reflection=this.REFLECTION_MINIATURE;this.trail=this.TRAIL_DROPS;this.gravity=this.GRAVITY_NON_LINEAR;this.VARIABLE_GRAVITY_THRESHOLD=3;this.VARIABLE_GRAVITY_ANGLE=Math.PI/2;this.VARIABLE_GRAVITY_ANGLE_VARIANCE=0;this.VARIABLE_FPS=15;this.VARIABLE_FILL_STYLE='#8ED6FF';this.VARIABLE_COLLISIONS=true;this.REFLECTION_SCALEDOWN_FACTOR=5;this.REFLECTION_DROP_MAPPING_WIDTH=200;this.REFLECTION_DROP_MAPPING_HEIGHT=200;this.collision=this.COLLISION_SIMPLE;}
 RainyDay.prototype.animateDrops=function(){var raf=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||function(callback){window.setTimeout(callback,1000/this.rainyday.VARIABLE_FPS);};if(this.addDropCallback)
 this.addDropCallback();var dropsClone=this.drops.slice();var newDrops=[];for(var i=0;i<dropsClone.length;++i){if(dropsClone[i].animate())

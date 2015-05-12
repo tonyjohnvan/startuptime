@@ -5,6 +5,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
 
+@font-face {
+    font-family: LiPro;
+    src: url(../fonts/LiPro.ttf);
+}
+
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -82,13 +87,16 @@ Serif:              "Times New Roman", Times, serif;
 Section Title:      35px/1.3 "Open Sans", arial, sans-serif;
 Section Heading:    24px/1.3 "Open Sans", arial, sans-serif;
 Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
-
+Chinese Font:       LiPro
 -------------------------------------------------------------------*/
 
 
 /* ==============================
    Common styles
    ============================== */
+body,html{
+    font-family: LiPro;
+}
   
 .align-center{ text-align:center !important; }
 .align-left{ text-align:left !important;}

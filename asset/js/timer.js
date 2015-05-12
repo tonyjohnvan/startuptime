@@ -1,10 +1,4 @@
-/*!
-Theme Name: TheONE
-Theme URI: http://themeforest.net/user/Pooyaa/portfolio
-Author: Pooyaa
-Author URI: http://themeforest.net/user/Pooyaa
-Description: TheONE coming soon page
-*/
+
 (function($) {
 
     var useWindow = window;
